@@ -1,9 +1,12 @@
 # GraphRAG Package 1.8 - New Schema Options using a Medical Report Dataset
 
-This project creates knowledge graphs from medical PDF reports using the new `schema` options available in Neo4j GraphRAG package 1.8. 
+This project creates knowledge graphs from medical PDF reports using the new `schema` options available in [Neo4j GraphRAG package](https://github.com/neo4j/neo4j-graphrag-python) 1.8. 
 
 It provides multiple examples showing different levels of schema control.
 
+For a better introduction to the new schema options, check out [Unleashing The Power Of Schema: What's New in neo4j-graphrag python](https://medium.com/@nathalie.charbel/089bdeaa97bd) by Nathalie Charbel @ Neo4j
+
+## About the Data
 All medical reports were synthetically generated.
 
 ## Prerequisites
