@@ -150,5 +150,5 @@ The project uses the following main dependencies:
 ### Support
 
 For issues with:
-- Neo4j GraphRAG Package: Raise an issue on the [package repo](https://github.com/neo4j/neo4j-graphrag-python)
+- Neo4j GraphRAG Package: Raise an issue on the [official neo4j-graphrag package repo](https://github.com/neo4j/neo4j-graphrag-python)
 
