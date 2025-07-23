@@ -1,6 +1,10 @@
-# Medical Dataset Knowledge Graph Builder
+# GraphRAG Package 1.8 - New Schema Options using a Medical Report Dataset
 
-This project creates knowledge graphs from medical PDF reports using Neo4j GraphRAG and OpenAI. It provides multiple approaches for building knowledge graphs with different levels of schema control.
+This project creates knowledge graphs from medical PDF reports using the new `schema` options available in Neo4j GraphRAG package 1.8. 
+
+It provides multiple examples showing different levels of schema control.
+
+All medical reports were synthetically generated.
 
 ## Prerequisites
 
@@ -130,7 +134,7 @@ The project uses the following main dependencies:
 
 - Python >= 3.13
 - OpenAI API access (API key required)
-- Neo4j database (local or remote)
+- Neo4j database (local or remote) - Make sure to populate your `.env` file as above
 - PDF medical reports in the `reports/` directory
 
 ## Troubleshooting
@@ -139,11 +143,9 @@ The project uses the following main dependencies:
 
 1. **Missing OpenAI API Key**: Ensure `OPENAI_API_KEY` is set in your `.env` file
 2. **Neo4j Connection Error**: Verify your Neo4j database is running and connection details are correct
-3. **PDF Not Found**: Make sure PDF files are in the `reports/` directory
 
 ### Support
 
 For issues with:
-- Neo4j GraphRAG: Check the [official documentation](https://neo4j.com/docs/graph-data-science/)
-- OpenAI API: Visit [OpenAI API documentation](https://platform.openai.com/docs/)
-- uv package manager: See [uv documentation](https://docs.astral.sh/uv/)
+- Neo4j GraphRAG Package: Raise an issue on the [package repo](https://github.com/neo4j/neo4j-graphrag-python)
+
