@@ -102,7 +102,7 @@ python extract-save-schema.py
 **What it does:**
 - Analyzes medical reports to automatically generate an appropriate schema
 - Saves the generated schema to `medical-report-schema.json`
-- Can be used as input for other knowledge graph creation methods
+- The schema is loaded from JSON and used to create a knowledge graph
 
 ## Project Structure
 
