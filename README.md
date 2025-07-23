@@ -107,7 +107,7 @@ python extract-save-schema.py
 ## Project Structure
 
 ```
-medical-dataset/
+graphrag-package-1.8-examples/
 ├── create-kg-no-schema.py          # No schema approach
 ├── create-kg-with-schema.py        # Predefined schema approach
 ├── create-kg-with-improved-schema.py  # Enhanced schema approach
