@@ -63,7 +63,7 @@ python create-kg-no-schema.py
 
 **What it does:**
 - Automatically extracts schema from the medical report content
-- Creates a knowledge graph without predefined structure
+- Creates a knowledge graph guided by the schema that was previously extracted
 - Uses `Report1.pdf` as the input document
 
 ### 2. Create KG with Schema
@@ -89,7 +89,7 @@ python create-kg-with-improved-schema.py
 
 **What it does:**
 - Uses an improved schema with better-defined relationships and properties
-- Information from Symptom is moved to the relationship type!
+- Particularly, part of the information from Symptom is moved to the relationship type!
 
 ### 4. Use LLM to Generate & Save Schema
 
